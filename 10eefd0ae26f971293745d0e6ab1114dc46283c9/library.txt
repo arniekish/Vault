@@ -5,13 +5,12 @@
 "entity_filename":"entity.txt",
 "root":{
 "type":"Ref",
-"tclass":"project",
-"uid":"PR_A17EA870C3EE8D9F",
-"caption":"PLM Demo Test 2",
+"tclass":"group",
+"uid":"GR_1B33386EC2F1FCA5",
+"caption":"PLM Support",
 "context_id":"",
 "roles":"",
 "context_info":"",
-"macroset":"standard",
 "filter":[
 ]
 }

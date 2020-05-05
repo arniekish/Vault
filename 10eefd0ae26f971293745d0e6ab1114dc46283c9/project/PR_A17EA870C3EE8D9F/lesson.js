@@ -30,8 +30,8 @@
 "time":0,
 "duration":10,
 "uid":"MAC_D431862DD4F20F91",
-"possible_points":93,
-"mastery_score":75,
+"possible_points":84,
+"mastery_score":68,
 "task_text":"",
 "task_width":240,
 "task_height":0,
@@ -76,7 +76,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_91D8196C48250EB1",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Enter your <span style=\"font-weight:bold; \">Username <\/span>and <span style=\"font-weight:bold; \">Password<\/span>&nbsp;to <span style=\"font-weight:bold; \">Log In. <\/span><\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}Log In. <\/span><\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon_6.png",
@@ -103,9 +103,9 @@
 }
 ,
 "bubblestyle_d":"white_island",
-"b_width":150,
+"b_width":297,
 "b_height":40,
-"orientation":"NW",
+"orientation":"SW",
 "position_b":{
 "FP":"",
 "elem":{
@@ -116,12 +116,12 @@
 "id":"page"}
 ,
 "XY":{
-"x":"0.539040",
-"y":"0.746395"}
+"x":"0.627604",
+"y":"0.584848"}
 ,
 "DocXY":{
-"x":"0.539040",
-"y":"0.746395"}
+"x":"0.627604",
+"y":"0.584848"}
 }
 ,
 "b_duration":4,
@@ -207,7 +207,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_3484860AA8C6E3A2",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname} Search<\/span>&nbsp;to find an object.<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}Search<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -342,7 +342,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_40DB2D973FF721B9",
-"explanation_d":"<p>The <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span> field is filled out.<\/p>\n",
+"explanation_d":"<p><span style=\"font-weight:bold; \">Search <\/span>for an item.<\/p>\n",
 "explanation_p":"<p>Enter <span style=\"font-weight:bold; \">ECR<\/span> in the <span style=\"font-weight:bold; \">$#{fieldname}Search<\/span> box.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -483,7 +483,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_892310F601E43484",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}<\/span>the <span style=\"font-weight:bold; \">Magnifying Glass to<\/span> <span style=\"font-weight:bold; \">Search.<\/span><\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname} $I{fieldicon}&nbsp;<\/span>to <span style=\"font-weight:bold; \">Search.<\/span><\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon_3.png",
@@ -510,7 +510,7 @@
 }
 ,
 "bubblestyle_d":"white_island",
-"b_width":150,
+"b_width":179,
 "b_height":40,
 "orientation":"SW",
 "position_b":{
@@ -588,101 +588,11 @@
 "index":5,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
-"uid":"TS_0CE520C6C350425EBD5493FE323D9FDC",
-"jumpable":true,
-"visible":false,
-"callable":false,
-"duration":19,
-"audio_duration":0,
-"macros":[
-{
-"macro_template":"new_page",
-"time":0,
-"duration":10,
-"uid":"MAC_9823E23A60B87181",
-"new_step":"3DEXPERIENCE Platform - Google Chrome",
-"dump_page":"dump_page\\",
-"dump_page_size":{
-"width":1920,
-"height":978}
-,
-"screenshot_rect":{
-"left":0,
-"top":0,
-"width":1920,
-"height":978}
-,
-"context":""}
-,{
-"macro_template":"explanation_long",
-"time":9,
-"duration":10,
-"uid":"MAC_8463AC22F6B0C5A5",
-"all_like_demo":true,
-"explanation_d":"<p>Your <span style=\"font-weight:bold; \">results <\/span>of the <span style=\"font-weight:bold; \">search <\/span>will be <span style=\"font-weight:bold; \">populated<\/span>.<\/p>\n",
-"explanation_p":"",
-"type":"info",
-"bubblestyle_d":"white_island",
-"b_width":304,
-"b_height":92,
-"orientation":"C",
-"position_b":{
-"FP":"",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":"page"}
-,
-"XY":{
-"x":"0.497902",
-"y":"0.291402"}
-,
-"DocXY":{
-"x":"0.497902",
-"y":"0.291402"}
-}
-,
-"b_duration":-1,
-"b_width_p":180,
-"b_height_p":40,
-"orientation_p":"C",
-"position_bu":{
-"FP":"",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":"page"}
-,
-"XY":{
-"x":"0.499977",
-"y":"0.499977"}
-,
-"DocXY":{
-"x":"0.499977",
-"y":"0.499977"}
-}
-,
-"in_demo":true,
-"in_practice":true,
-"in_test":false,
-"in_prax":true,
-"show_nav_buttons":true,
-"show_hl_doc":false}
-]
-}
-,{
-"index":6,
-"title":"3DEXPERIENCE Platform - Google Chrome",
-"audio":"",
 "uid":"TS_83080B36ECA94F9D8B910D3EB03A9BB3",
 "jumpable":true,
 "visible":false,
 "callable":false,
-"duration":29,
+"duration":19,
 "audio_duration":0,
 "macros":[
 {
@@ -704,70 +614,11 @@
 ,
 "context":""}
 ,{
-"macro_template":"explanation_long",
+"macro_template":"click",
 "time":9,
 "duration":10,
-"uid":"MAC_2CEF8EAF941F99B9",
-"all_like_demo":true,
-"explanation_d":"<p>Select your part. In this <span style=\"font-weight:bold; \">example<\/span>, we select <span style=\"font-weight:bold; \">ECR_Demo_Part<\/span><\/p>\n",
-"explanation_p":"",
-"type":"info",
-"bubblestyle_d":"white_island",
-"b_width":256,
-"b_height":148,
-"orientation":"C",
-"position_b":{
-"FP":"",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":"page"}
-,
-"XY":{
-"x":"0.518227",
-"y":"0.335363"}
-,
-"DocXY":{
-"x":"0.518227",
-"y":"0.335363"}
-}
-,
-"b_duration":-1,
-"b_width_p":180,
-"b_height_p":40,
-"orientation_p":"C",
-"position_bu":{
-"FP":"",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":"page"}
-,
-"XY":{
-"x":"0.499977",
-"y":"0.499977"}
-,
-"DocXY":{
-"x":"0.499977",
-"y":"0.499977"}
-}
-,
-"in_demo":true,
-"in_practice":true,
-"in_test":false,
-"in_prax":true,
-"show_nav_buttons":true,
-"show_hl_doc":false}
-,{
-"macro_template":"click",
-"time":19,
-"duration":10,
 "uid":"MAC_79D52F95D5AC9992",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Select your <span style=\"font-weight:bold; \">Material Part <\/span>&nbsp;from the search Menu.<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname} ECR_Demo_Part<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -794,29 +645,25 @@
 }
 ,
 "bubblestyle_d":"white_island",
-"b_width":150,
+"b_width":306,
 "b_height":40,
 "orientation":"NE",
 "position_b":{
-"FP":"0",
+"FP":"",
 "elem":{
 "EP":"",
 "coll":"\"\"",
 "idx":0,
 "subidx":0,
-"id":""}
+"id":"page"}
 ,
 "XY":{
-"x":"1.000000",
-"y":"0.000000"}
+"x":"0.443748",
+"y":"0.402838"}
 ,
 "DocXY":{
-"x":"0.000000",
-"y":"0.000000"}
-,
-"Off":{
-"x":-6,
-"y":-4}
+"x":"0.443748",
+"y":"0.402838"}
 }
 ,
 "b_duration":4,
@@ -869,7 +716,7 @@
 ]
 }
 ,{
-"index":7,
+"index":6,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_A9DE3575F285452E8A3818FAF72E0EBC",
@@ -902,7 +749,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_315A729796E3519A",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}Display Detail <\/span>to view details of the part.<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}Display detail<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -929,7 +776,7 @@
 }
 ,
 "bubblestyle_d":"white_island",
-"b_width":150,
+"b_width":312,
 "b_height":40,
 "orientation":"NW",
 "position_b":{
@@ -1004,7 +851,7 @@
 ]
 }
 ,{
-"index":8,
+"index":7,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_A4817E2D754B4820A3C975660492904A",
@@ -1037,7 +884,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_3BE3B68EFC5A79BB",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}<\/span>the <span style=\"font-weight:bold; \">Addition<\/span> <span style=\"font-weight:bold; \">Button <\/span>to start a new task.<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}Add <\/span>to start a <span style=\"font-weight:bold; \">Change Order<\/span><\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -1139,7 +986,7 @@
 ]
 }
 ,{
-"index":9,
+"index":8,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_6EFD65959E40405183C6EABA862B04D2",
@@ -1172,7 +1019,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_275B5B7412FEAF9F",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">Create Change Action<\/span>.<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}Create Change Action<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -1274,7 +1121,7 @@
 ]
 }
 ,{
-"index":10,
+"index":9,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_E36E729A35304F2180C4BAB118D56A0E",
@@ -1307,7 +1154,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_4885737E9D52BBB0",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Enter a <span style=\"font-weight:bold; \">Title <\/span>for your <span style=\"font-weight:bold; \">Change Action.<\/span><\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -1409,7 +1256,7 @@
 ]
 }
 ,{
-"index":11,
+"index":10,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_29768B927B8F4F83883DBBC9357AFCC5",
@@ -1442,7 +1289,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_3C9B2F231C0E5B8A",
-"explanation_d":"<p>The <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span> field is filled out.<\/p>\n",
+"explanation_d":"",
 "explanation_p":"<p>Type <span style=\"font-weight:bold; \">Change Action. <\/span><\/p>\n",
 "fieldname":"",
 "fieldicon":"",
@@ -1550,7 +1397,7 @@
 ]
 }
 ,{
-"index":12,
+"index":11,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_5A1D6EFB37E14795BD786EB05D392A9D",
@@ -1583,7 +1430,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_69A5B3F7BED5C3A7",
-"explanation_d":"<p>A text is entered in the <span style=\"font-weight:bold; \">$#{fieldname}<\/span> text field.<\/p>\n",
+"explanation_d":"<p>Enter a <span style=\"font-weight:bold; \">Description.<\/span><\/p>\n",
 "explanation_p":"<p>Enter <span style=\"font-weight:bold; \">$#{text_d}<\/span> in the <span style=\"font-weight:bold; \">$#{fieldname}<\/span> text field.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -1702,7 +1549,7 @@
 ]
 }
 ,{
-"index":13,
+"index":12,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_2840C22D09904088B3E11C2DEE71B2A6",
@@ -1735,7 +1582,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_DA22D82A63131CA7",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}<\/span>the <span style=\"font-weight:bold; \">Calendar Icon<\/span>&nbsp;to enter an <span style=\"font-weight:bold; \">Estimated Start.<\/span><\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname} $I{fieldicon}&nbsp;<\/span>&nbsp;to enter an <span style=\"font-weight:bold; \">Estimated Start <\/span>date.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon_5.png",
@@ -1837,7 +1684,7 @@
 ]
 }
 ,{
-"index":14,
+"index":13,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_32C905EC7DB34748909972C333660539",
@@ -1972,7 +1819,7 @@
 ]
 }
 ,{
-"index":15,
+"index":14,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_F1E278466A8D44D9B8E9D7792E787158",
@@ -2005,7 +1852,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_2D513DF53BD0E84",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \"><\/span>the <span style=\"font-weight:bold; \">Calendar Icon<\/span>&nbsp;to enter a <span style=\"font-weight:bold; \">Due Date.<\/span><\/p>\n<p>&nbsp;<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname} $I{fieldicon} <\/span>to <span style=\"font-weight:bold; \">Enter <\/span>an <span style=\"font-weight:bold; \">&nbsp;Esitmated Due<\/span>&nbsp;date<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon_9.png",
@@ -2107,7 +1954,7 @@
 ]
 }
 ,{
-"index":16,
+"index":15,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_688558E1CD6C4A68B896EB1896765D13",
@@ -2242,7 +2089,7 @@
 ]
 }
 ,{
-"index":17,
+"index":16,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_1006CBF06ABF463087F0D049976E3E6F",
@@ -2275,7 +2122,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_8806ADB7719802B4",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname} Add Assignee.<\/span><\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname} $I{fieldicon}&nbsp;<\/span>&nbsp;to add an <span style=\"font-weight:bold; \">Assignee.<\/span><\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon_11.png",
@@ -2377,7 +2224,7 @@
 ]
 }
 ,{
-"index":18,
+"index":17,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_26AEC227A00546019CCD5E0837B8B78A",
@@ -2410,7 +2257,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_49E48309C56ECAF",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p><span style=\"font-weight:bold; \">&nbsp;<\/span>Select a<span style=\"font-weight:bold; \">&nbsp;<\/span>n <span style=\"font-weight:bold; \">Assignee <\/span>from your list.<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -2512,7 +2359,7 @@
 ]
 }
 ,{
-"index":19,
+"index":18,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_3538CFDD7E2C4BB5A28BE6165FB97D6E",
@@ -2545,7 +2392,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_1BAC0DAF82E2CF89",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}OK<\/span>.<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -2647,7 +2494,7 @@
 ]
 }
 ,{
-"index":20,
+"index":19,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_14ABF0497EB24792B785291C18F3E74D",
@@ -2680,16 +2527,16 @@
 "time":9,
 "duration":10,
 "uid":"MAC_A1E64BF1A87C838A",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}Add People<\/span>&nbsp;to add a <span style=\"font-weight:bold; \">Reviewer<\/span>.<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
 "fieldname":"",
-"fieldicon":"fieldicon.png",
+"fieldicon":"fieldicon_3.png",
 "action":"lclick",
 "ctrl_key":false,
 "alt_key":false,
 "shift_key":false,
 "position_h":{
-"FP":"0",
+"FP":"",
 "elem":{
 "EP":"",
 "coll":"\"\"",
@@ -2772,17 +2619,17 @@
 "height":0}
 ,
 "ctl_rect":{
-"left":1808,
+"left":1758,
 "top":771,
-"width":59,
-"height":40}
+"width":109,
+"height":28}
 ,
 "ctl_button":false,
 "ctl_tooltip":""}
 ]
 }
 ,{
-"index":21,
+"index":20,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_D9897E229F974C5EAAA37E52000CDC37",
@@ -2815,7 +2662,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_A1FE4A0E2FFD69D",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Select your <span style=\"font-weight:bold; \">Reviewer <\/span>from the list.<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -2917,7 +2764,7 @@
 ]
 }
 ,{
-"index":22,
+"index":21,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_97D439607F0942BDA7BD3655AB8E1686",
@@ -2950,7 +2797,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_38A129E1AB3F1D96",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}Ok<\/span>.<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -3052,7 +2899,7 @@
 ]
 }
 ,{
-"index":23,
+"index":22,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_9E658B7C30E74341B7E5E415705219DE",
@@ -3085,7 +2932,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_ED70287174EF5E88",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}OK <\/span>when finished. <\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -3187,7 +3034,7 @@
 ]
 }
 ,{
-"index":24,
+"index":23,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_510CA78A4A4641EF865272EA375F9173",
@@ -3220,16 +3067,16 @@
 "time":9,
 "duration":10,
 "uid":"MAC_4D12F5D384639D8B",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">Content <\/span><\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
 "fieldname":"",
-"fieldicon":"fieldicon.png",
+"fieldicon":"fieldicon_6.png",
 "action":"lclick",
 "ctrl_key":false,
 "alt_key":false,
 "shift_key":false,
 "position_h":{
-"FP":"0",
+"FP":"",
 "elem":{
 "EP":"",
 "coll":"\"\"",
@@ -3314,15 +3161,15 @@
 "ctl_rect":{
 "left":21,
 "top":348,
-"width":232,
-"height":70}
+"width":92,
+"height":36}
 ,
 "ctl_button":false,
 "ctl_tooltip":""}
 ]
 }
 ,{
-"index":25,
+"index":24,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_DCD1D8EFAA474BB19D63A88688323BEE",
@@ -3355,7 +3202,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_6B072C25FD0E67AE",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}Plus <\/span>to <span style=\"font-weight:bold; \">Add Proposed Change<\/span>.<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -3457,277 +3304,7 @@
 ]
 }
 ,{
-"index":26,
-"title":"3DEXPERIENCE Platform - Google Chrome",
-"audio":"",
-"uid":"TS_4703AEDF90624F0DA2C2FCD3DBD0D360",
-"jumpable":true,
-"visible":false,
-"callable":false,
-"duration":19,
-"audio_duration":0,
-"macros":[
-{
-"macro_template":"new_page",
-"time":0,
-"duration":10,
-"uid":"MAC_781710D85B24B0B5",
-"new_step":"3DEXPERIENCE Platform - Google Chrome",
-"dump_page":"dump_page\\",
-"dump_page_size":{
-"width":1920,
-"height":978}
-,
-"screenshot_rect":{
-"left":0,
-"top":0,
-"width":1230,
-"height":534}
-,
-"context":""}
-,{
-"macro_template":"click",
-"time":9,
-"duration":10,
-"uid":"MAC_570AB3A412545F83",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
-"explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
-"fieldname":"",
-"fieldicon":"fieldicon.png",
-"action":"lclick",
-"ctrl_key":false,
-"alt_key":false,
-"shift_key":false,
-"position_h":{
-"FP":"0",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":""}
-,
-"XY":{
-"x":"0.000000",
-"y":"0.000000"}
-,
-"XY2":{
-"x":"1.000000",
-"y":"1.000000"}
-}
-,
-"bubblestyle_d":"white_island",
-"b_width":150,
-"b_height":40,
-"orientation":"NW",
-"position_b":{
-"FP":"0",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":""}
-,
-"XY":{
-"x":"0.000000",
-"y":"0.000000"}
-,
-"DocXY":{
-"x":"0.000000",
-"y":"0.000000"}
-,
-"Off":{
-"x":6,
-"y":-4}
-}
-,
-"b_duration":4,
-"bubblestyle_p":"white_island",
-"b_width_p":180,
-"b_height_p":40,
-"orientation_p":"C",
-"position_bu":{
-"FP":"0",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":"page"}
-,
-"XY":{
-"x":"0.499977",
-"y":"0.499977"}
-,
-"DocXY":{
-"x":"0.499977",
-"y":"0.499977"}
-}
-,
-"show_hl_d":true,
-"show_hl_p":false,
-"show_bubble_d":true,
-"show_bubble_p":true,
-"click_pos":{
-"left":766,
-"top":432}
-,
-"click_count":1,
-"exec_mouse":false,
-"hotspot_client_rect":{
-"left":-2147483648,
-"top":-2147483648,
-"width":0,
-"height":0}
-,
-"ctl_rect":{
-"left":657,
-"top":424,
-"width":513,
-"height":20}
-,
-"ctl_button":false,
-"ctl_tooltip":""}
-]
-}
-,{
-"index":27,
-"title":"3DEXPERIENCE Platform - Google Chrome",
-"audio":"",
-"uid":"TS_CB5547E29FF34C2289971DD1B3FF7BB2",
-"jumpable":true,
-"visible":false,
-"callable":false,
-"duration":19,
-"audio_duration":0,
-"macros":[
-{
-"macro_template":"new_page",
-"time":0,
-"duration":10,
-"uid":"MAC_C4DC80AC5D50EDA0",
-"new_step":"3DEXPERIENCE Platform - Google Chrome",
-"dump_page":"dump_page\\",
-"dump_page_size":{
-"width":1920,
-"height":978}
-,
-"screenshot_rect":{
-"left":0,
-"top":0,
-"width":455,
-"height":475}
-,
-"context":""}
-,{
-"macro_template":"click",
-"time":9,
-"duration":10,
-"uid":"MAC_D3D137923AC1796",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
-"explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
-"fieldname":"",
-"fieldicon":"fieldicon.png",
-"action":"lclick",
-"ctrl_key":false,
-"alt_key":false,
-"shift_key":false,
-"position_h":{
-"FP":"0",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":""}
-,
-"XY":{
-"x":"0.000000",
-"y":"0.000000"}
-,
-"XY2":{
-"x":"1.000000",
-"y":"1.000000"}
-}
-,
-"bubblestyle_d":"white_island",
-"b_width":150,
-"b_height":40,
-"orientation":"NE",
-"position_b":{
-"FP":"0",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":""}
-,
-"XY":{
-"x":"1.000000",
-"y":"0.000000"}
-,
-"DocXY":{
-"x":"0.000000",
-"y":"0.000000"}
-,
-"Off":{
-"x":-6,
-"y":-4}
-}
-,
-"b_duration":4,
-"bubblestyle_p":"white_island",
-"b_width_p":180,
-"b_height_p":40,
-"orientation_p":"C",
-"position_bu":{
-"FP":"0",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":"page"}
-,
-"XY":{
-"x":"0.499977",
-"y":"0.499977"}
-,
-"DocXY":{
-"x":"0.499977",
-"y":"0.499977"}
-}
-,
-"show_hl_d":true,
-"show_hl_p":false,
-"show_bubble_d":true,
-"show_bubble_p":true,
-"click_pos":{
-"left":298,
-"top":379}
-,
-"click_count":1,
-"exec_mouse":false,
-"hotspot_client_rect":{
-"left":-2147483648,
-"top":-2147483648,
-"width":0,
-"height":0}
-,
-"ctl_rect":{
-"left":283,
-"top":363,
-"width":24,
-"height":25}
-,
-"ctl_button":false,
-"ctl_tooltip":""}
-]
-}
-,{
-"index":28,
+"index":25,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_8579B015F3CD4D8C8B043146B7D5949B",
@@ -3760,7 +3337,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_8CB0425234FA5998",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Select the <span style=\"font-weight:bold; \">part <\/span>you are <span style=\"font-weight:bold; \">changing.<\/span><\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -3862,7 +3439,7 @@
 ]
 }
 ,{
-"index":29,
+"index":26,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_299B13CE62494AA7B7ECC182F865A9CD",
@@ -3895,7 +3472,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_FE69E7CE22746FB6",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}OK <\/span>when finished.<\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -3997,7 +3574,7 @@
 ]
 }
 ,{
-"index":30,
+"index":27,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_C119A6F1CC57480293DFFBA6BD83CB07",
@@ -4030,7 +3607,7 @@
 "time":9,
 "duration":10,
 "uid":"MAC_B4CD417917E09A8D",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
+"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}<\/span>to <span style=\"font-weight:bold; \">Promote <\/span>the <span style=\"font-weight:bold; \">Change Order.<\/span><\/p>\n",
 "explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
 "fieldname":"",
 "fieldicon":"fieldicon.png",
@@ -4132,7 +3709,7 @@
 ]
 }
 ,{
-"index":31,
+"index":28,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_E51C597FEF484FD38D8EB6A644112CA4",
@@ -4267,149 +3844,14 @@
 ]
 }
 ,{
-"index":32,
-"title":"3DEXPERIENCE Platform - Google Chrome",
-"audio":"",
-"uid":"TS_85DDEFBF901543C4AB1E29A7643E8011",
-"jumpable":true,
-"visible":false,
-"callable":false,
-"duration":19,
-"audio_duration":0,
-"macros":[
-{
-"macro_template":"new_page",
-"time":0,
-"duration":10,
-"uid":"MAC_9F23CC22E7DD3095",
-"new_step":"3DEXPERIENCE Platform - Google Chrome",
-"dump_page":"dump_page\\",
-"dump_page_size":{
-"width":1920,
-"height":978}
-,
-"screenshot_rect":{
-"left":0,
-"top":0,
-"width":1920,
-"height":476}
-,
-"context":""}
-,{
-"macro_template":"click",
-"time":9,
-"duration":10,
-"uid":"MAC_712BAA4CE4C7819D",
-"explanation_d":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
-"explanation_p":"<p>Click <span style=\"font-weight:bold; \">$#{fieldname}&nbsp;$I{fieldicon}<\/span>.<\/p>\n",
-"fieldname":"",
-"fieldicon":"fieldicon.png",
-"action":"lclick",
-"ctrl_key":false,
-"alt_key":false,
-"shift_key":false,
-"position_h":{
-"FP":"0",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":""}
-,
-"XY":{
-"x":"0.000000",
-"y":"0.000000"}
-,
-"XY2":{
-"x":"1.000000",
-"y":"1.000000"}
-}
-,
-"bubblestyle_d":"white_island",
-"b_width":150,
-"b_height":40,
-"orientation":"N",
-"position_b":{
-"FP":"0",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":""}
-,
-"XY":{
-"x":"0.499977",
-"y":"0.000000"}
-,
-"DocXY":{
-"x":"0.000000",
-"y":"0.000000"}
-,
-"Off":{
-"x":0,
-"y":-4}
-}
-,
-"b_duration":4,
-"bubblestyle_p":"white_island",
-"b_width_p":180,
-"b_height_p":40,
-"orientation_p":"C",
-"position_bu":{
-"FP":"0",
-"elem":{
-"EP":"",
-"coll":"\"\"",
-"idx":0,
-"subidx":0,
-"id":"page"}
-,
-"XY":{
-"x":"0.499977",
-"y":"0.499977"}
-,
-"DocXY":{
-"x":"0.499977",
-"y":"0.499977"}
-}
-,
-"show_hl_d":true,
-"show_hl_p":false,
-"show_bubble_d":true,
-"show_bubble_p":true,
-"click_pos":{
-"left":1278,
-"top":381}
-,
-"click_count":1,
-"exec_mouse":false,
-"hotspot_client_rect":{
-"left":-2147483648,
-"top":-2147483648,
-"width":0,
-"height":0}
-,
-"ctl_rect":{
-"left":265,
-"top":354,
-"width":1649,
-"height":45}
-,
-"ctl_button":false,
-"ctl_tooltip":""}
-]
-}
-,{
-"index":33,
+"index":29,
 "title":"3DEXPERIENCE Platform - Google Chrome",
 "audio":"",
 "uid":"TS_3D271598BA6C42A299104D0226D12315",
 "jumpable":true,
 "visible":false,
 "callable":false,
-"duration":19,
+"duration":29,
 "audio_duration":0,
 "macros":[
 {
@@ -4431,8 +3873,67 @@
 ,
 "context":""}
 ,{
-"macro_template":"end_unit",
+"macro_template":"explanation_long",
 "time":9,
+"duration":10,
+"uid":"MAC_F67330163808F683",
+"all_like_demo":true,
+"explanation_d":"<p><span style=\"font-weight:bold; \">Change Order <\/span>has been sent to the <span style=\"font-weight:bold; \">Approver. <\/span><\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n<p><span style=\"font-weight:bold; \">&nbsp;<\/span>Click to exit the demo.<br\/><\/p>\n",
+"explanation_p":"",
+"type":"info",
+"bubblestyle_d":"white_island",
+"b_width":406,
+"b_height":40,
+"orientation":"C",
+"position_b":{
+"FP":"",
+"elem":{
+"EP":"",
+"coll":"\"\"",
+"idx":0,
+"subidx":0,
+"id":"page"}
+,
+"XY":{
+"x":"0.499977",
+"y":"0.499977"}
+,
+"DocXY":{
+"x":"0.499977",
+"y":"0.499977"}
+}
+,
+"b_duration":-1,
+"b_width_p":180,
+"b_height_p":40,
+"orientation_p":"C",
+"position_bu":{
+"FP":"",
+"elem":{
+"EP":"",
+"coll":"\"\"",
+"idx":0,
+"subidx":0,
+"id":"page"}
+,
+"XY":{
+"x":"0.499977",
+"y":"0.499977"}
+,
+"DocXY":{
+"x":"0.499977",
+"y":"0.499977"}
+}
+,
+"in_demo":true,
+"in_practice":true,
+"in_test":false,
+"in_prax":true,
+"show_nav_buttons":true,
+"show_hl_doc":false}
+,{
+"macro_template":"end_unit",
+"time":19,
 "duration":10,
 "macro_comment":"",
 "uid":"MAC_EDF7C88383954A1"}

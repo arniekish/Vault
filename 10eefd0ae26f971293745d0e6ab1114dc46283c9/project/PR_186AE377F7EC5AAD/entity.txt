@@ -1,7 +1,7 @@
 ﻿{
 "tclass":"project",
-"uid":"PR_A17EA870C3EE8D9F",
-"caption":"1) PLM Demo: Change Order",
+"uid":"PR_186AE377F7EC5AAD",
+"caption":"2) PLM Demo: Task Approval",
 "context_id":"",
 "roles":"",
 "context_info":"",
@@ -20,24 +20,29 @@
 "doc_type":"js",
 "mode":"demo",
 "fileName":"demo.js",
-"caption":"1) PLM Demo: Change Order Demo"}
+"caption":"2) PLM Demo: Task Approval Demo"}
 ,{
 "type":"Tour",
 "doc_type":"js",
 "mode":"uebung",
 "fileName":"uebung.js",
-"caption":"1) PLM Demo: Change Order Practice"}
+"caption":"2) PLM Demo: Task Approval Practice"}
 ,{
 "type":"Tour",
 "doc_type":"js",
 "mode":"test",
 "fileName":"test.js",
-"caption":"1) PLM Demo: Change Order Test"}
+"caption":"2) PLM Demo: Task Approval Test"}
 ,{
 "type":"Tour",
 "doc_type":"js",
 "mode":"praxis",
 "fileName":"praxis.js",
-"caption":"1) PLM Demo: Change Order Concurrent"}
+"caption":"2) PLM Demo: Task Approval Concurrent"}
+,{
+"type":"Docu",
+"doc_type":"ppt",
+"fileName":"ppt.pptx",
+"caption":"PowerPoint Document"}
 ]
 }
