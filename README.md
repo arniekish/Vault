@@ -1,3 +1,11 @@
+#Using this a Repo to host files for training
+
+See below to create password hash folders. 
+
+
+
+
+
 # Password protection for static pages
 
 This simple HTML document helps you protecting static pages or whole websites with no server configuration required: you can now use Dropbox, Amazon S3 or any generic hosting service to host a private, password protected site.
