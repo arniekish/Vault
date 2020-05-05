@@ -10,7 +10,7 @@
 "mastery_score_percent":"80",
 "max_score_percent":"100",
 "shelftype":"standard",
-"title":"PLM Demo Test 2",
+"title":"1) PLM Demo: Change Order",
 "version":"10.4.0"}
 ,
 "tourstops":[
@@ -65,9 +65,9 @@
 "height":978}
 ,
 "screenshot_rect":{
-"left":0,
-"top":0,
-"width":1293,
+"left":247,
+"top":156,
+"width":1358,
 "height":653}
 ,
 "context":""}
@@ -196,8 +196,8 @@
 "height":978}
 ,
 "screenshot_rect":{
-"left":0,
-"top":0,
+"left":422,
+"top":38,
 "width":1273,
 "height":246}
 ,

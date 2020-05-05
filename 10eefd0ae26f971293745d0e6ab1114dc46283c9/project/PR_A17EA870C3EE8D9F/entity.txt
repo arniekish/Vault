@@ -39,5 +39,10 @@
 "mode":"praxis",
 "fileName":"praxis.js",
 "caption":"1) PLM Demo: Change Order Concurrent"}
+,{
+"type":"Docu",
+"doc_type":"ppt",
+"fileName":"ppt.pptx",
+"caption":"PowerPoint Document"}
 ]
 }
