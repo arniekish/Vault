@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Deployed type="standard" root_class_id="slide" root_local_id="SL_3FA98A0FECC41283" start_id="" dntprefix="">
+<Deployed type="standard" root_class_id="book" root_local_id="BO_577F2C241CFF678A" start_id="" dntprefix="">
     <Class id="adaptable">
         <Entity id="book_flat" timestamp="132376513667042956" caption="book_flat" version="10.2.6.318" rev="3" preview="preview.png" types="popup_style; custom_style" cwa_must_have="true" created_by="_SYSTEM_" creation_time="2018-11-29T14:01:13"/>
         <Entity id="categories" timestamp="132376513769718050" caption="content_categories" version="10.3.12.1286" rev="2" types="content_categories" created_by="_SYSTEM_" creation_time="2019-11-28T08:53:32"/>
@@ -26,6 +26,18 @@
                 <Img fileName="tipp.gif" doc_type="gif" caption="Explanation Icon (Tip)"/>
                 <Img fileName="warnung.gif" doc_type="gif" caption="Explanation Icon (Warning)"/>
             </Assets>
+        </Entity>
+    </Class>
+    <Class id="book">
+        <Entity id="BO_577F2C241CFF678A" timestamp="132376631318208450" caption="Landing Page" language="en-US" created_by="Kishore, Aranya" creation_time="2020-06-26T15:53:13" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:38:51" lms_cfg_track_completion="true">
+            <Assets>
+                <Ref class="slide" uid="SL_3FA98A0FECC41283" caption="Home Landing Page"/>
+                <Ref class="slide" uid="SL_D9D8645481D8ADA3" caption="Procurement"/>
+                <Ref class="slide" uid="SL_F9A28D2715CBEDAF" caption="Create PR"/>
+            </Assets>
+            <Library>
+                <entity.txt c="4216421908"/>
+            </Library>
         </Entity>
     </Class>
     <Class id="book_style">
@@ -57,7 +69,7 @@
                 <Img fileName="6746D8843D0E8F99.png" doc_type="png" caption="View.png" src_path="C:\Users\bewojcie\OneDrive - Capgemini\Desktop\Venture\View.png" original="View.png" modified_date="2020/06/11 18:39:52" import_date="2020/06/11 18:47:36"/>
             </Assets>
             <Library>
-                <entity.txt c="1312954431"/>
+                <entity.txt c="102712237"/>
             </Library>
         </Entity>
     </Class>
@@ -89,7 +101,7 @@
     <Class id="slide">
         <Entity id="SL_3FA98A0FECC41283" timestamp="132376614781287592" caption="Home Landing Page" language="en-US" created_by="Kishore, Aranya" creation_time="2020-06-26T15:53:45" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:11:18">
             <Library>
-                <entity.txt c="3305806016"/>
+                <entity.txt c="3625811852"/>
             </Library>
         </Entity>
         <Entity id="SL_B6E872E8B4D8619C" timestamp="132376703800000000" caption="Start Page - Creating Purchase Requisitions" language="en-US" preview="preview.png" description="" hidden="1" context_id="" clone_src="slide!SL_B3D13C242DC1EA86" clone_master="slide!SL_958210E16BB46E82" created_by="Kishore, Aranya" creation_time="2020-06-26T14:26:36" modified_by="Kishore, Aranya" modification_time="2020-06-26T14:26:40" h4_product_version="">
@@ -104,14 +116,14 @@
                 <entity.txt c="2066122798"/>
             </Library>
         </Entity>
-        <Entity id="SL_D9D8645481D8ADA3" timestamp="132376622473434958" caption="Procurement" language="en-US" clone_src="slide!SL_3FA98A0FECC41283" clone_master="slide!SL_3FA98A0FECC41283" created_by="Kishore, Aranya" creation_time="2020-06-26T15:56:30" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:24:07">
+        <Entity id="SL_D9D8645481D8ADA3" timestamp="132376629240762759" caption="Procurement" language="en-US" clone_src="slide!SL_3FA98A0FECC41283" clone_master="slide!SL_3FA98A0FECC41283" created_by="Kishore, Aranya" creation_time="2020-06-26T15:56:30" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:35:24">
             <Library>
-                <entity.txt c="3569253911"/>
+                <entity.txt c="3591274008"/>
             </Library>
         </Entity>
-        <Entity id="SL_F9A28D2715CBEDAF" timestamp="132376622545555450" caption="Create PR" language="en-us" clone_src="slide!SL_559B63C54F5121AD" clone_master="slide!SL_FD91CBE1623642BA" created_by="Kishore, Aranya" creation_time="2020-06-26T16:18:27" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:24:14">
+        <Entity id="SL_F9A28D2715CBEDAF" timestamp="132376627695997831" caption="Create PR" language="en-us" clone_src="slide!SL_559B63C54F5121AD" clone_master="slide!SL_FD91CBE1623642BA" created_by="Kishore, Aranya" creation_time="2020-06-26T16:18:27" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:32:49">
             <Library>
-                <entity.txt c="3970071812"/>
+                <entity.txt c="4116086027"/>
             </Library>
         </Entity>
     </Class>
@@ -123,6 +135,7 @@
             <Referrer id="book_style!book_flat:"/>
         </Item>
         <Item id="adaptable!categories:">
+            <Referrer id="book!BO_577F2C241CFF678A:"/>
             <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
             <Referrer id="slide!SL_3FA98A0FECC41283:"/>
             <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
@@ -182,6 +195,7 @@
             <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
         </Item>
         <Item id="help!en-US:">
+            <Referrer id="book!BO_577F2C241CFF678A:"/>
             <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
             <Referrer id="slide!SL_3FA98A0FECC41283:"/>
             <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
@@ -200,6 +214,9 @@
         </Item>
         <Item id="rtprofile!1591618219:">
             <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+        </Item>
+        <Item id="slide!SL_3FA98A0FECC41283:">
+            <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
         </Item>
         <Item id="slide!SL_6F96F652C744BB97:">
             <Referrer id="slide!SL_C342666F25D73690:"/>
@@ -220,6 +237,7 @@
             <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
         </Item>
         <Item id="trainer!10_4_4_1544:">
+            <Referrer id="book!BO_577F2C241CFF678A:"/>
             <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
             <Referrer id="slide!SL_3FA98A0FECC41283:"/>
             <Referrer id="slide!SL_B6E872E8B4D8619C:"/>

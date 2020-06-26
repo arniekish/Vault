@@ -19,6 +19,17 @@
 "assets":[
 {
 "type":"Ref",
+"tclass":"book",
+"uid":"BO_577F2C241CFF678A",
+"caption":"Landing Page",
+"context_id":"",
+"roles":"",
+"context_info":"",
+"filter":[
+]
+}
+,{
+"type":"Ref",
 "tclass":"project",
 "uid":"PR_B353CA53F1CD7D8F",
 "caption":"Creating Purchase Requisitions ",
