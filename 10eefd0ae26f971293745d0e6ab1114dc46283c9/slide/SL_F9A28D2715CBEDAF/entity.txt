@@ -1,0 +1,22 @@
+﻿{
+"tclass":"slide",
+"uid":"SL_F9A28D2715CBEDAF",
+"caption":"Create PR",
+"context_id":"",
+"roles":"",
+"context_info":"",
+"created_by":"Kishore, Aranya",
+"modified_by":"Kishore, Aranya",
+"creation_time":"2020-06-26T16:18:27",
+"modification_time":"2020-06-26T16:24:14",
+"description":"",
+"shortdesc":"",
+"da_context_id":"",
+"hidden_in_toc":"",
+"keywords":"",
+"la_weight":"",
+"language":"en-us",
+"sub_type":"",
+"assets":[
+]
+}

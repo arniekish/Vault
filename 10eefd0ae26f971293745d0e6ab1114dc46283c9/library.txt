@@ -1,0 +1,17 @@
+﻿{
+"categories":{
+}
+,
+"entity_filename":"entity.txt",
+"root":{
+"type":"Ref",
+"tclass":"slide",
+"uid":"SL_3FA98A0FECC41283",
+"caption":"Home Landing Page",
+"context_id":"",
+"roles":"",
+"context_info":"",
+"filter":[
+]
+}
+}

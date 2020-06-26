@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Deployed type="standard" root_class_id="slide" root_local_id="SL_3FA98A0FECC41283" start_id="" dntprefix="">
+    <Class id="adaptable">
+        <Entity id="book_flat" timestamp="132376513667042956" caption="book_flat" version="10.2.6.318" rev="3" preview="preview.png" types="popup_style; custom_style" cwa_must_have="true" created_by="_SYSTEM_" creation_time="2018-11-29T14:01:13"/>
+        <Entity id="categories" timestamp="132376513769718050" caption="content_categories" version="10.3.12.1286" rev="2" types="content_categories" created_by="_SYSTEM_" creation_time="2019-11-28T08:53:32"/>
+        <Entity id="simulation_playback" timestamp="132376514190425625" caption="simulation_playback_settings" version="10.4.4.1544" rev="0" types="simulation_playback_settings;trainer_settings;slide_playback_settings" cwa_must_have="true" created_by="_SYSTEM_" creation_time="2018-08-24T11:14:09" modified_by="Gonzalez, Felipe" modification_time="2020-06-09T18:26:42">
+            <Assets>
+                <Settings type="trainer_global" filename_base="trainer_global"/>
+                <Settings type="trainer_book" filename_base="trainer_book"/>
+                <Settings type="trainer_lib" filename_base="trainer_lib"/>
+                <Settings type="trainer_demo" filename_base="trainer_demo"/>
+                <Settings type="trainer_uebung" filename_base="trainer_uebung"/>
+                <Settings type="trainer_test" filename_base="trainer_test"/>
+                <Settings type="trainer_praxis" filename_base="trainer_praxis"/>
+                <Settings type="trainer_pres" filename_base="trainer_pres"/>
+                <Settings type="trainer_guided" filename_base="trainer_guided"/>
+                <Settings type="simulation_fallbacks" filename_base="simulation_fallbacks"/>
+                <Settings type="slide_fallbacks" filename_base="slide_fallbacks"/>
+            </Assets>
+        </Entity>
+        <Entity id="text_styles" timestamp="132376513762320108" caption="text_styles" version="10.4.0.133" rev="0" types="text_styles" cwa_must_have="true" created_by="_SYSTEM_" creation_time="2018-08-24T11:14:09" modified_by="Nicholas, Jeff" modification_time="2020-03-23T17:35:30"/>
+        <Entity id="trainer_skin_mobile" timestamp="132376514266631674" caption="trainer_skin_medium" version="10.4.4.1544" rev="10" preview="preview.png" types="trainer_skin;book_skin;lib_skin;popup_skin;quiz_skin;popup_style;custom_style" cwa_must_have="true" created_by="_SYSTEM_" creation_time="2020-05-26T12:54:20">
+            <Assets>
+                <Img fileName="info.gif" doc_type="gif" caption="Explanation Icon (Info)"/>
+                <Img fileName="hinweis.gif" doc_type="gif" caption="Explanation Icon (Remark)"/>
+                <Img fileName="tipp.gif" doc_type="gif" caption="Explanation Icon (Tip)"/>
+                <Img fileName="warnung.gif" doc_type="gif" caption="Explanation Icon (Warning)"/>
+            </Assets>
+        </Entity>
+    </Class>
+    <Class id="book_style">
+        <Entity id="book_flat" timestamp="132376514310857686" caption="book_flat" version="10.2.6.318" rev="3" preview="preview.png" cwa_must_have="true" created_by="_SYSTEM_" creation_time="2018-11-29T14:01:13"/>
+        <Entity id="standard" timestamp="132376514340912417" caption="standard" version="10.2.6.318" rev="3" preview="preview.png" cwa_must_have="true" created_by="_SYSTEM_" creation_time="2018-11-29T14:01:13"/>
+    </Class>
+    <Class id="bubble">
+        <Entity id="_default" timestamp="132376514614800229" caption="Yellow Classic" version="10.2.4.960" rev="1" cwa_must_have="true" created_by="_SYSTEM_" creation_time="2018-08-24T11:14:09"/>
+        <Entity id="bright_title_green" timestamp="132376514705385312" caption="Bright - Green Title" version="10.4.4.1544" cwa_must_have="true" created_by="Aderhold, Michael" creation_time="2015-10-02T10:44:36" modified_by="Wojciechowski, Ben" modification_time="2020-06-10T15:50:40">
+            <Assets/>
+        </Entity>
+        <Entity id="dark_title_green" timestamp="132376514756606972" caption="Dark - Green Title" version="10.2.4.960" created_by="Aderhold, Michael" creation_time="2014-11-07T10:44:36" modified_by="van Schaik, Joost" modification_time="2018-09-07T09:02:22">
+            <Assets/>
+        </Entity>
+        <Entity id="white_island" timestamp="132376514884924410" caption="White Island" version="10.2.4.960" rev="1" cwa_must_have="true" created_by="_SYSTEM_" creation_time="2018-08-24T11:14:09"/>
+    </Class>
+    <Class id="glossary">
+        <Entity id="standard" timestamp="132376514947465983" caption="trainer" version="10.3.12.1286" rev="8" cwa_must_have="true" created_by="_SYSTEM_" creation_time="2019-11-28T08:53:32"/>
+    </Class>
+    <Class id="group">
+        <Entity id="GR_C1054C477E338B87" timestamp="132376703780000000" caption="MobileMini Demo AK" language="en-US" clone_src="group!GR_320763B914A70A9" clone_master="group!GR_320763B914A70A9" created_by="Kishore, Aranya" creation_time="2020-06-26T14:26:36" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:20:36">
+            <Assets>
+                <Ref class="book" uid="BO_577F2C241CFF678A" caption="Landing Page"/>
+                <Ref class="project" uid="PR_B0F4218EEA277F94" caption="Creating Purchase Orders Using the Advanced App"/>
+                <Ref class="project" uid="PR_B353CA53F1CD7D8F" caption="Creating Purchase Requisitions "/>
+                <Ref class="project" uid="PR_AED8752FB06F59B0" caption="Creating Customer Invoices"/>
+                <Img fileName="E489737D7538C5B2.png" doc_type="png" caption="Download.png" src_path="C:\Users\bewojcie\OneDrive - Capgemini\Desktop\Venture\Download.png" original="Download.png" modified_date="2020/06/11 18:39:46" import_date="2020/06/11 18:47:36"/>
+                <Img fileName="BEEEF769CC73AFB8.png" doc_type="png" caption="Try.png" src_path="C:\Users\bewojcie\OneDrive - Capgemini\Desktop\Venture\Try.png" original="Try.png" modified_date="2020/06/11 18:39:59" import_date="2020/06/11 18:47:36"/>
+                <Img fileName="6746D8843D0E8F99.png" doc_type="png" caption="View.png" src_path="C:\Users\bewojcie\OneDrive - Capgemini\Desktop\Venture\View.png" original="View.png" modified_date="2020/06/11 18:39:52" import_date="2020/06/11 18:47:36"/>
+            </Assets>
+            <Library>
+                <entity.txt c="1312954431"/>
+            </Library>
+        </Entity>
+    </Class>
+    <Class id="help">
+        <Entity id="en-US" timestamp="132376514970263182" caption="en-US" version="10.3.12.1286" rev="2" preview="preview.jpg" cwa_must_have="true"/>
+    </Class>
+    <Class id="macroset">
+        <Entity id="standard" timestamp="132376515088039271" caption="standard" version="10.4.4.1544" rev="16" cwa_must_have="true"/>
+    </Class>
+    <Class id="project">
+        <Entity id="PR_B353CA53F1CD7D8F" timestamp="132376703940000000" caption="Creating Purchase Requisitions " language="en-US" autostart="project:uebung" macroset="standard" h4_product="SAP_S4HANA_CLOUD" h4_product_version="2002.500" max_score_percent="100" mastery_score_percent="80" sub_type="simulation_project" shortdesc="&lt;p&gt;Create a purchase requisition in asset accounting. &lt;/p&gt;&#10;" context_id="PurchaseRequisition-create:advanced" roles="Purchaser" clone_src="project!PR_E8D2A5158D5D9EBA" clone_master="project!PR_F374569FFC0BCEB2" context_info="" created_by="Kishore, Aranya" creation_time="2020-06-26T14:26:36" modified_by="Kishore, Aranya" modification_time="2020-06-26T14:26:40">
+            <Assets>
+                <Tour mode="uebung" type="0" caption="Creating Purchase Requisitions Practice" caption_modified="1"/>
+                <Ref class="slide" uid="SL_B6E872E8B4D8619C" caption="Start Page - Creating Purchase Requisitions" hidden="1"/>
+                <Ref class="slide" uid="SL_C342666F25D73690" caption="End Page - Creating Purchase Requisitions" hidden="1"/>
+                <Docu fileName="hands_on.pdf" mode="hands_on" doc_type="pdf" caption="Hands-On Guide" src_path="hands_on.pdf" original="hands_on.pdf" modified_date="2019/10/30 10:18:42" import_date="2019/10/30 10:18:42" hidden="1"/>
+                <Tour mode="demo" type="0" caption="Creating Purchase Requisitions  Demo" caption_modified="0"/>
+                <Tour mode="test" type="0" caption="Creating Purchase Requisitions  Test" caption_modified="0"/>
+                <Tour mode="praxis" type="0" caption="Creating Purchase Requisitions  Concurrent" caption_modified="0"/>
+            </Assets>
+            <Library>
+                <entity.txt c="3967183445"/>
+            </Library>
+        </Entity>
+    </Class>
+    <Class id="rtprofile">
+        <Entity id="1591618219" timestamp="132376515353735990" hash="1591618219" caption="SAPUI5" original_name="SAPUI5"/>
+    </Class>
+    <Class id="slide">
+        <Entity id="SL_3FA98A0FECC41283" timestamp="132376614781287592" caption="Home Landing Page" language="en-US" created_by="Kishore, Aranya" creation_time="2020-06-26T15:53:45" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:11:18">
+            <Library>
+                <entity.txt c="3305806016"/>
+            </Library>
+        </Entity>
+        <Entity id="SL_B6E872E8B4D8619C" timestamp="132376703800000000" caption="Start Page - Creating Purchase Requisitions" language="en-US" preview="preview.png" description="" hidden="1" context_id="" clone_src="slide!SL_B3D13C242DC1EA86" clone_master="slide!SL_958210E16BB46E82" created_by="Kishore, Aranya" creation_time="2020-06-26T14:26:36" modified_by="Kishore, Aranya" modification_time="2020-06-26T14:26:40" h4_product_version="">
+            <Assets/>
+            <Library>
+                <entity.txt c="1721928023"/>
+            </Library>
+        </Entity>
+        <Entity id="SL_C342666F25D73690" timestamp="132376703820000000" caption="End Page - Creating Purchase Requisitions" language="en-US" preview="preview.png" description="" hidden="1" context_id="" clone_src="slide!SL_B4EB4BB4A8EB238B" clone_master="slide!SL_6F96F652C744BB97" created_by="Kishore, Aranya" creation_time="2020-06-26T14:26:36" modified_by="Kishore, Aranya" modification_time="2020-06-26T14:26:37" h4_product_version="">
+            <Assets/>
+            <Library>
+                <entity.txt c="2066122798"/>
+            </Library>
+        </Entity>
+        <Entity id="SL_D9D8645481D8ADA3" timestamp="132376622473434958" caption="Procurement" language="en-US" clone_src="slide!SL_3FA98A0FECC41283" clone_master="slide!SL_3FA98A0FECC41283" created_by="Kishore, Aranya" creation_time="2020-06-26T15:56:30" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:24:07">
+            <Library>
+                <entity.txt c="3569253911"/>
+            </Library>
+        </Entity>
+        <Entity id="SL_F9A28D2715CBEDAF" timestamp="132376622545555450" caption="Create PR" language="en-us" clone_src="slide!SL_559B63C54F5121AD" clone_master="slide!SL_FD91CBE1623642BA" created_by="Kishore, Aranya" creation_time="2020-06-26T16:18:27" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:24:14">
+            <Library>
+                <entity.txt c="3970071812"/>
+            </Library>
+        </Entity>
+    </Class>
+    <Class id="trainer">
+        <Entity id="10_4_4_1544" timestamp="132376516025156605" version="10.4.4.1544" cwa_must_have="true"/>
+    </Class>
+    <Referrers>
+        <Item id="adaptable!book_flat:">
+            <Referrer id="book_style!book_flat:"/>
+        </Item>
+        <Item id="adaptable!categories:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
+            <Referrer id="slide!SL_C342666F25D73690:"/>
+            <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
+            <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
+        </Item>
+        <Item id="adaptable!simulation_playback:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+            <Referrer id="trainer!10_4_4_1544:"/>
+        </Item>
+        <Item id="adaptable!text_styles:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
+            <Referrer id="slide!SL_C342666F25D73690:"/>
+            <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
+            <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
+            <Referrer id="trainer!10_4_4_1544:"/>
+        </Item>
+        <Item id="adaptable!trainer_skin_mobile:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+            <Referrer id="trainer!10_4_4_1544:"/>
+        </Item>
+        <Item id="book_style!book_flat:">
+            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
+            <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
+        </Item>
+        <Item id="book_style!standard:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
+        </Item>
+        <Item id="bubble!_default:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+        </Item>
+        <Item id="bubble!bright_title_green:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+        </Item>
+        <Item id="bubble!dark_title_green:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+        </Item>
+        <Item id="bubble!white_island:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
+        </Item>
+        <Item id="glossary!standard:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+            <Referrer id="trainer!10_4_4_1544:"/>
+        </Item>
+        <Item id="group!GR_C1054C477E338B87:">
+            <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
+        </Item>
+        <Item id="group!GR_FD0322FEAA739682:">
+            <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
+        </Item>
+        <Item id="help!en-US:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
+            <Referrer id="slide!SL_C342666F25D73690:"/>
+            <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
+            <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
+            <Referrer id="trainer!10_4_4_1544:"/>
+        </Item>
+        <Item id="macroset!standard:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+        </Item>
+        <Item id="project!PR_B353CA53F1CD7D8F:">
+            <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
+            <Referrer id="slide!SL_C342666F25D73690:"/>
+            <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
+        </Item>
+        <Item id="rtprofile!1591618219:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+        </Item>
+        <Item id="slide!SL_6F96F652C744BB97:">
+            <Referrer id="slide!SL_C342666F25D73690:"/>
+        </Item>
+        <Item id="slide!SL_958210E16BB46E82:">
+            <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
+        </Item>
+        <Item id="slide!SL_B6E872E8B4D8619C:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+        </Item>
+        <Item id="slide!SL_C342666F25D73690:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+        </Item>
+        <Item id="slide!SL_D9D8645481D8ADA3:">
+            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+        </Item>
+        <Item id="slide!SL_F9A28D2715CBEDAF:">
+            <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
+        </Item>
+        <Item id="trainer!10_4_4_1544:">
+            <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
+            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
+            <Referrer id="slide!SL_C342666F25D73690:"/>
+            <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
+            <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
+        </Item>
+    </Referrers>
+</Deployed>

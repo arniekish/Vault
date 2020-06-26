@@ -1,0 +1,12 @@
+﻿{
+
+        "sub_type":"standard",
+        "root_group":"slide!SL_3FA98A0FECC41283",
+        "include_dependencies":1,
+        "cleanup_target":1,
+        "use_wa_style":0,
+        "simulation_playback":"simulation_playback",
+        "navigation_playback":"navigation_playback",
+        "text_styles":"text_styles",
+        "text_styles_xray":""
+    }
