@@ -29,14 +29,14 @@
         </Entity>
     </Class>
     <Class id="book">
-        <Entity id="BO_577F2C241CFF678A" timestamp="132376631318208450" caption="Landing Page" language="en-US" created_by="Kishore, Aranya" creation_time="2020-06-26T15:53:13" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:38:51" lms_cfg_track_completion="true">
+        <Entity id="BO_577F2C241CFF678A" timestamp="132376642340383042" caption="Landing Page" language="en-US" created_by="Kishore, Aranya" creation_time="2020-06-26T15:53:13" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:57:14" lms_cfg_track_completion="true">
             <Assets>
-                <Ref class="slide" uid="SL_3FA98A0FECC41283" caption="Home Landing Page"/>
-                <Ref class="slide" uid="SL_D9D8645481D8ADA3" caption="Procurement"/>
+                <Ref class="slide" uid="SL_1C1905440B2825A3" caption="Homepage"/>
+                <Ref class="slide" uid="SL_4AB7FAFFC1E43AA4" caption="Procurement"/>
                 <Ref class="slide" uid="SL_F9A28D2715CBEDAF" caption="Create PR"/>
             </Assets>
             <Library>
-                <entity.txt c="4216421908"/>
+                <entity.txt c="3600907031"/>
             </Library>
         </Entity>
     </Class>
@@ -99,9 +99,14 @@
         <Entity id="1591618219" timestamp="132376515353735990" hash="1591618219" caption="SAPUI5" original_name="SAPUI5"/>
     </Class>
     <Class id="slide">
-        <Entity id="SL_3FA98A0FECC41283" timestamp="132376614781287592" caption="Home Landing Page" language="en-US" created_by="Kishore, Aranya" creation_time="2020-06-26T15:53:45" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:11:18">
+        <Entity id="SL_1C1905440B2825A3" timestamp="132376642814945858" caption="Homepage" language="en-us" clone_src="slide!SL_F9A28D2715CBEDAF" clone_master="slide!SL_FD91CBE1623642BA" created_by="Kishore, Aranya" creation_time="2020-06-26T16:51:52" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:58:01">
             <Library>
-                <entity.txt c="3625811852"/>
+                <entity.txt c="2693364898"/>
+            </Library>
+        </Entity>
+        <Entity id="SL_4AB7FAFFC1E43AA4" timestamp="132376642982400475" caption="Procurement" language="en-us" clone_src="slide!SL_1C1905440B2825A3" clone_master="slide!SL_FD91CBE1623642BA" created_by="Kishore, Aranya" creation_time="2020-06-26T16:53:52" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:58:18">
+            <Library>
+                <entity.txt c="2103410319"/>
             </Library>
         </Entity>
         <Entity id="SL_B6E872E8B4D8619C" timestamp="132376703800000000" caption="Start Page - Creating Purchase Requisitions" language="en-US" preview="preview.png" description="" hidden="1" context_id="" clone_src="slide!SL_B3D13C242DC1EA86" clone_master="slide!SL_958210E16BB46E82" created_by="Kishore, Aranya" creation_time="2020-06-26T14:26:36" modified_by="Kishore, Aranya" modification_time="2020-06-26T14:26:40" h4_product_version="">
@@ -116,14 +121,9 @@
                 <entity.txt c="2066122798"/>
             </Library>
         </Entity>
-        <Entity id="SL_D9D8645481D8ADA3" timestamp="132376629240762759" caption="Procurement" language="en-US" clone_src="slide!SL_3FA98A0FECC41283" clone_master="slide!SL_3FA98A0FECC41283" created_by="Kishore, Aranya" creation_time="2020-06-26T15:56:30" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:35:24">
+        <Entity id="SL_F9A28D2715CBEDAF" timestamp="132376643085151057" caption="Create PR" language="en-us" clone_src="slide!SL_559B63C54F5121AD" clone_master="slide!SL_FD91CBE1623642BA" created_by="Kishore, Aranya" creation_time="2020-06-26T16:18:27" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:58:28">
             <Library>
-                <entity.txt c="3591274008"/>
-            </Library>
-        </Entity>
-        <Entity id="SL_F9A28D2715CBEDAF" timestamp="132376627695997831" caption="Create PR" language="en-us" clone_src="slide!SL_559B63C54F5121AD" clone_master="slide!SL_FD91CBE1623642BA" created_by="Kishore, Aranya" creation_time="2020-06-26T16:18:27" modified_by="Kishore, Aranya" modification_time="2020-06-26T16:32:49">
-            <Library>
-                <entity.txt c="4116086027"/>
+                <entity.txt c="4223434000"/>
             </Library>
         </Entity>
     </Class>
@@ -137,10 +137,10 @@
         <Item id="adaptable!categories:">
             <Referrer id="book!BO_577F2C241CFF678A:"/>
             <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
-            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_1C1905440B2825A3:"/>
+            <Referrer id="slide!SL_4AB7FAFFC1E43AA4:"/>
             <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
             <Referrer id="slide!SL_C342666F25D73690:"/>
-            <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
             <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
         </Item>
         <Item id="adaptable!simulation_playback:">
@@ -149,10 +149,10 @@
         </Item>
         <Item id="adaptable!text_styles:">
             <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
-            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_1C1905440B2825A3:"/>
+            <Referrer id="slide!SL_4AB7FAFFC1E43AA4:"/>
             <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
             <Referrer id="slide!SL_C342666F25D73690:"/>
-            <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
             <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
             <Referrer id="trainer!10_4_4_1544:"/>
         </Item>
@@ -161,13 +161,13 @@
             <Referrer id="trainer!10_4_4_1544:"/>
         </Item>
         <Item id="book_style!book_flat:">
-            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
-            <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
+            <Referrer id="slide!SL_1C1905440B2825A3:"/>
+            <Referrer id="slide!SL_4AB7FAFFC1E43AA4:"/>
             <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
         </Item>
         <Item id="book_style!standard:">
             <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
-            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_1C1905440B2825A3:"/>
             <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
         </Item>
         <Item id="bubble!_default:">
@@ -181,7 +181,7 @@
         </Item>
         <Item id="bubble!white_island:">
             <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
-            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_1C1905440B2825A3:"/>
             <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
         </Item>
         <Item id="glossary!standard:">
@@ -197,10 +197,10 @@
         <Item id="help!en-US:">
             <Referrer id="book!BO_577F2C241CFF678A:"/>
             <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
-            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_1C1905440B2825A3:"/>
+            <Referrer id="slide!SL_4AB7FAFFC1E43AA4:"/>
             <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
             <Referrer id="slide!SL_C342666F25D73690:"/>
-            <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
             <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
             <Referrer id="trainer!10_4_4_1544:"/>
         </Item>
@@ -215,8 +215,12 @@
         <Item id="rtprofile!1591618219:">
             <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
         </Item>
-        <Item id="slide!SL_3FA98A0FECC41283:">
+        <Item id="slide!SL_1C1905440B2825A3:">
+            <Referrer id="slide!SL_4AB7FAFFC1E43AA4:"/>
             <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
+        </Item>
+        <Item id="slide!SL_4AB7FAFFC1E43AA4:">
+            <Referrer id="slide!SL_1C1905440B2825A3:"/>
         </Item>
         <Item id="slide!SL_6F96F652C744BB97:">
             <Referrer id="slide!SL_C342666F25D73690:"/>
@@ -230,19 +234,16 @@
         <Item id="slide!SL_C342666F25D73690:">
             <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
         </Item>
-        <Item id="slide!SL_D9D8645481D8ADA3:">
-            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
-        </Item>
         <Item id="slide!SL_F9A28D2715CBEDAF:">
-            <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
+            <Referrer id="slide!SL_4AB7FAFFC1E43AA4:"/>
         </Item>
         <Item id="trainer!10_4_4_1544:">
             <Referrer id="book!BO_577F2C241CFF678A:"/>
             <Referrer id="project!PR_B353CA53F1CD7D8F:"/>
-            <Referrer id="slide!SL_3FA98A0FECC41283:"/>
+            <Referrer id="slide!SL_1C1905440B2825A3:"/>
+            <Referrer id="slide!SL_4AB7FAFFC1E43AA4:"/>
             <Referrer id="slide!SL_B6E872E8B4D8619C:"/>
             <Referrer id="slide!SL_C342666F25D73690:"/>
-            <Referrer id="slide!SL_D9D8645481D8ADA3:"/>
             <Referrer id="slide!SL_F9A28D2715CBEDAF:"/>
         </Item>
     </Referrers>
