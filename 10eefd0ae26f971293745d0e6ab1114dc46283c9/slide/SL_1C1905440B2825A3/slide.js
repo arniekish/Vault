@@ -52,7 +52,7 @@
  "type": "shape",
  "valign": "middle",
  "w": 182,
- "x": 580,
+ "x": 578,
  "y": 178,
  "z": 5}
 ,"CTL954954CE3A866BB1":{"align": "Center",
@@ -80,7 +80,7 @@
  "type": "shape",
  "valign": "middle",
  "w": 76,
- "x": 483,
+ "x": 481,
  "y": 222,
  "z": 9}
 ,"CTL97A11E8238F6E5B0":{"align": "Center",
@@ -108,7 +108,7 @@
  "type": "shape",
  "valign": "middle",
  "w": 182,
- "x": 580,
+ "x": 578,
  "y": 232,
  "z": 6}
 ,"CTLAA080ECE2BFA3EA2":{"align": "Center",
@@ -136,7 +136,7 @@
  "type": "shape",
  "valign": "middle",
  "w": 182,
- "x": 580,
+ "x": 578,
  "y": 342,
  "z": 8}
 ,"CTLCF5C3A05B3B2B2AD":{"align": "Center",
@@ -164,7 +164,7 @@
  "type": "shape",
  "valign": "middle",
  "w": 248,
- "x": 222,
+ "x": 220,
  "y": 166,
  "z": 4}
 ,"CTLD8265EEF3CD794":{"align": "Center",
@@ -192,7 +192,7 @@
  "type": "shape",
  "valign": "middle",
  "w": 182,
- "x": 580,
+ "x": 578,
  "y": 282,
  "z": 7}
 ,"page":{"background_color": "#888888",

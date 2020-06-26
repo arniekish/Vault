@@ -8,7 +8,7 @@
 "created_by":"Kishore, Aranya",
 "modified_by":"Kishore, Aranya",
 "creation_time":"2020-06-26T14:26:36",
-"modification_time":"2020-06-26T16:20:36",
+"modification_time":"2020-06-26T17:17:34",
 "description":"",
 "shortdesc":"",
 "autostart":"",
@@ -25,18 +25,6 @@
 "context_id":"",
 "roles":"",
 "context_info":"",
-"filter":[
-]
-}
-,{
-"type":"Ref",
-"tclass":"project",
-"uid":"PR_B353CA53F1CD7D8F",
-"caption":"Creating Purchase Requisitions ",
-"context_id":"PurchaseRequisition-create:advanced",
-"roles":"Purchaser",
-"context_info":"",
-"macroset":"standard",
 "filter":[
 ]
 }
