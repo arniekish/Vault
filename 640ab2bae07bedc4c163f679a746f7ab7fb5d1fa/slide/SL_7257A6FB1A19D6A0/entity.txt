@@ -1,0 +1,22 @@
+﻿{
+"tclass":"slide",
+"uid":"SL_7257A6FB1A19D6A0",
+"caption":"End Page - Creating Customer Invoices",
+"context_id":"",
+"roles":"",
+"context_info":"",
+"created_by":"Kishore, Aranya",
+"modified_by":"Kishore, Aranya",
+"creation_time":"2020-06-26T14:26:36",
+"modification_time":"2020-06-26T14:26:40",
+"description":"",
+"shortdesc":"",
+"da_context_id":"",
+"hidden_in_toc":"",
+"keywords":"",
+"la_weight":"",
+"language":"en-US",
+"sub_type":"",
+"assets":[
+]
+}

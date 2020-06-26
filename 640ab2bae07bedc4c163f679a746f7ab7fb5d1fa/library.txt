@@ -1,0 +1,17 @@
+﻿{
+"categories":{
+}
+,
+"entity_filename":"entity.txt",
+"root":{
+"type":"Ref",
+"tclass":"group",
+"uid":"GR_9B6C4F0EA5568BA9",
+"caption":"Procurement",
+"context_id":"",
+"roles":"",
+"context_info":"",
+"filter":[
+]
+}
+}

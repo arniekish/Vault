@@ -1,0 +1,22 @@
+﻿{
+"tclass":"slide",
+"uid":"SL_C342666F25D73690",
+"caption":"End Page - Creating Purchase Requisitions",
+"context_id":"",
+"roles":"",
+"context_info":"",
+"created_by":"Kishore, Aranya",
+"modified_by":"Kishore, Aranya",
+"creation_time":"2020-06-26T14:26:36",
+"modification_time":"2020-06-26T14:26:37",
+"description":"",
+"shortdesc":"",
+"da_context_id":"",
+"hidden_in_toc":"",
+"keywords":"",
+"la_weight":"",
+"language":"en-US",
+"sub_type":"",
+"assets":[
+]
+}
